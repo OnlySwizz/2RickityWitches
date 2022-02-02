@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000000;
+}
+.navbar {
+    background:#1c6d2d;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(141, 141, 141);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background-image: url('wp6422191.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: #000000;
+}
+.description p {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.description button {
+    border:1px solid #ffffff;
+    background:#000000;
+    border-radius: 0;
+    color:rgb(255, 255, 255);
+}
+.description button:hover {
+    border:1px solid rgb(0, 0, 0);
+    background:rgb(245, 200, 200);
+    color:rgb(0, 0, 0);
+}
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.feature-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.4);
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.4);
+    margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+.features .btn {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #333;
+}
+
+.background {
+    background: #106132;
+    padding: 4em 0;
+}
+.team {
+    color: #7e7e7e;
+    padding: 0 180px;
+}
+.team .card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+.team .card {
+    background:none;
+    border: rgb(153, 16, 107);
+}
+.team .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.page-footer {
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+    padding: 60px 0 30px;
+}
+.footer-copyright {
+    color: rgb(255, 255, 255);
+    padding: 40px 0;
+}
+.container
+{color: #fff}
